@@ -1,0 +1,42 @@
+@media (max-width: 1024px) {
+  /* banner */
+  #nav-bar a:link,
+  a:visited {
+    padding: 0;
+    text-decoration: none;
+    color: rgb(29, 30, 31);
+    border-right: none;
+  }
+
+  #nav-bar ul {
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+  }
+  .banner-textbox {
+    top: 20%;
+    left: 30%;
+  }
+  /* phan1 */
+  .text {
+    display: none;
+  }
+  /* phan2 */
+  #about {
+    margin-top: -15px;
+  }
+  /* phan4 */
+  .gach-chan {
+    border-bottom: none;
+    display: block;
+  }
+  .border-left {
+    border-left: none;
+    padding-left: 0;
+  }
+  .title {
+    font-size: 10px;
+    padding-left: 2px;
+  }
+  /* fotter */
+}
